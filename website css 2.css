@@ -1,0 +1,313 @@
+/*General Layout - START*/
+
+#logo {
+	width: : 170px;
+	height: 108px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+#sidebar{
+	background-color: #d3d3d3;
+	height: 100%;
+	padding: 5px;
+}
+
+/*Sidebar Buttons*/
+
+	#active-sidebarbtn {
+		border-radius: 0px;
+		color: #ffffff; /*text color*/
+	}
+
+	.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	    color: #ffffff; /*text color*/
+    	border-radius: 0px;
+	}
+
+	.nav>li>a:focus, .nav>li>a:hover {
+	    text-decoration: none;
+    	background-color: transparent;
+    	border: 1px solid #337ab7;
+    	border-radius: 0px;
+    	margin: 0px;
+	}
+
+	#nogameselect_sidebar{
+		background-color: #d3d3d3;
+		height: 100%;
+		padding: 5px;
+	}
+
+	.sbbuttons {
+		width: 170px;
+		height: 25px;
+	}
+
+	
+/*Sidebar Buttons - END*/
+
+#contents{
+	padding-left: 15px;
+	height: 100%;
+}
+
+div {
+	padding: 0px;
+}
+
+p {
+	color: black;
+}
+
+.boxartSize {
+	width: 170px;
+	height: 170px;
+}
+
+.bottomaligned {
+	margin-top: 50px;
+}
+
+#navibar {
+	border-radius: 0px;
+	margin-bottom: 10px;
+}
+
+#gameList {
+	width: 920px;
+}
+
+/*Main Body Contents*/
+	#gamepic1 { /*pic of selected game*/
+		width: 170px;
+		height: 170px;
+		margin-bottom: 5px;
+	}
+
+	.mainbody { /*MAIN BODY DIV*/
+		background-color: #d3d3d3;
+		padding: 15px;
+	}
+
+	.Gametitle { /*HEADER - MAIN BODY*/
+		margin-top: 0px;
+		margin-bottom: 10px;
+	}
+
+	hr {
+		margin: 5px
+		border-style: inset;
+	}
+
+	/*USED IN POKEMON ONLY*/
+		.pokedollar {
+			margin-left: 2px;
+		}
+
+		.pkmn-img {
+			background-color: #d3d3d3;
+			padding: 5px;
+			margin: 2px;
+			border: 1px solid gray;
+			border-radius: 100%;
+			display: block;
+		}
+
+		.type-img {
+			margin: 2px;
+			display: inline-block;
+		}
+
+	/*USED IN POKEMON ONLY - END*/
+
+	/*DIV with TABLES*/
+	.table-div {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+		/*TABLES CONTENTS*/
+		tbody, td, thead, th {
+			background-color: #ffffff;
+			border: 1px solid gray;
+			font-size: 10px;
+			padding: 5px;
+		}
+
+		li, ul {
+			list-style: none;
+			text-align: left;
+			padding-left: 0px;
+			padding-bottom: 0px;
+		}
+
+		/*Badge table*/
+			.badge-table {
+				width: 100%;
+			}
+
+			.badge-colwidth {
+				width: 20%;
+			}
+
+			.leader-colwidth {
+				width: 80%;
+			}
+
+			.badge-img {
+				width: 50px;
+				height: 50px;
+			}
+
+			.badge-name {
+				font-size: 12px;
+				text-align: center;
+				font-weight: bold;
+				color: #2f4f4f;
+				text-transform: uppercase;
+				border-bottom: 1px solid gray;
+				padding-bottom: 10px;
+			}
+
+			.badge-details {
+				font-size: 12px;
+				text-align: left;
+			}
+
+			.location-leader {
+				width: 20%;
+				display: inline-block;
+				border-right: 1px solid gray;
+			}
+
+			.leader-team {
+				padding-left: 5px;
+				vertical-align: top;
+				width: 60%;
+				display: inline-block;
+			}
+
+			.leader-img {
+				background-color: #d3d3d3;
+				padding: 5px;
+				margin: 2px;
+				border: 1px solid gray;
+				border-radius: 100%;
+				display: block;
+			}
+
+			.team-display{
+				vertical-align: top;
+				display: inline-block;
+				text-align: center;
+			}
+		/*Badge table - END*/
+
+		/*TABLES CONTENTS - END*/
+
+	/*DIV with TABLES - END*/
+
+	.info-text {
+		width: 500px;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.walkthrough-menu, .guides-menu {
+		margin-bottom: 10px;
+	}
+
+	.click2read {
+		border-radius: 0;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	.page_tblcontent {
+		width: 200px;
+		border: 1px solid gray;
+		background-color: #ffffff;
+		border-radius: 5px;
+		padding: 6px;
+	}
+
+	.tblcontent_hr {
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+/*Main Body Contents - END*/
+
+/*Screenshots and Captions*/
+	.gameSS {
+		display: inline-block;
+	}
+
+	.gameSScaption {
+		font-size: 12px;
+		text-align: left;
+		margin-top: 5px;
+	}
+
+	figure {
+		background-color: #ffffff;
+		margin: 3px;
+		padding: 6px;
+		border: 1px solid gray;
+		border-radius: 5px;
+		display: inline-block;
+	}
+
+	figcaption {
+		width: 170px;
+		font-size: 10px;
+		text-align: center;
+	}
+
+	.resize{
+		width: 100%;
+	}
+/*Screenshots and Captions - END*/
+
+.walkthrough-content {
+	display: inline-block;
+}
+
+.nextprev {
+	border-radius: 0;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+	color: #000000;
+}
+
+/*Game Select*/
+	.gameList {
+		width: 100%;
+		border: 1px solid #d4d4d4;
+		margin: 5px;
+		padding: 10px;
+		border-radius: 10px;
+	}
+
+	#gameImageselect {
+		float: left;
+		width: 150px;
+		height: 150px;
+	}
+
+	.titlee{
+		float: left;
+		margin-left: 10px;
+	}
+/*Game Select - END*/
+
+hr {
+	border-style: inset;
+    border-width: 1px;
+}
