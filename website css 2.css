@@ -1,8 +1,10 @@
 /*General Layout - START*/
 
+body {
+	
+}
+
 #logo {
-	width: : 170px;
-	height: 108px;
 	display: block;
 	margin-bottom: 10px;
 }
