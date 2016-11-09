@@ -1,7 +1,9 @@
 /*General Layout - START*/
 
+
 body {
-	
+	background-color: #360fb5;
+	color: #360fb5;
 }
 
 #logo {
@@ -25,14 +27,16 @@ body {
 	.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
 	    color: #ffffff; /*text color*/
     	border-radius: 0px;
+    	background-color: #360fb5;
 	}
 
 	.nav>li>a:focus, .nav>li>a:hover {
 	    text-decoration: none;
     	background-color: transparent;
-    	border: 1px solid #337ab7;
+    	border: 1px solid #360fb5;
     	border-radius: 0px;
     	margin: 0px;
+    	color: #360fb5;
 	}
 
 	#nogameselect_sidebar{
@@ -58,13 +62,12 @@ div {
 	padding: 0px;
 }
 
-p {
-	color: black;
+h1, h2, h3, h4, h5, h6{
+	color: #360fb5;
 }
 
-.boxartSize {
-	width: 170px;
-	height: 170px;
+p {
+	color: #360fb5;
 }
 
 .bottomaligned {
@@ -74,6 +77,8 @@ p {
 #navibar {
 	border-radius: 0px;
 	margin-bottom: 10px;
+	background-color: #360fb5;
+	color: #ffffff;
 }
 
 #gameList {
@@ -82,9 +87,8 @@ p {
 
 /*Main Body Contents*/
 	#gamepic1 { /*pic of selected game*/
-		width: 170px;
-		height: 170px;
 		margin-bottom: 5px;
+		border: 1px solid #360fb5;
 	}
 
 	.mainbody { /*MAIN BODY DIV*/
@@ -283,9 +287,9 @@ p {
 	display: inline-block;
 }
 
-a{
+a {
 	text-decoration: none;
-	color: #000000;
+	color: #360fb5;
 }
 
 /*Game Select*/
